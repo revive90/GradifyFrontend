@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+.main-container{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+}
+
+/*---------- LOGIN PICTURE ----------*/
+.login-pic{
+    height: 100vh;
+    width: 50%;
+    background-image: url('../assets/college-student.jpg') ;
+    background-size: cover;
+    
+}
+
+
+/*---------- LOGIN INPUT ------------*/
+
+.login-input-container{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginheaders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    width: 80%;
+    height: 100%;
+}
+
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background-color: red;
+    width: 80%;
+}
+input{
+    width: 90%;
+}
